@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.databinding:databinding-adapters:3.5.1] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\2fd96cf120d726db29579aa20a228736\databinding-adapters-3.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:3.5.1] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\dcf4536f48ce679df9c239c0dd8bb3fd\databinding-runtime-3.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\89d4d57e73e9d403ad934425294ebb2e\navigation-fragment-ktx-2.1.0\AndroidManifest.xml:17:1-24:12
@@ -54,25 +54,25 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\danny\.gradle\caches
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\117237b384d1d41655b445f8ab3449a2\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\0061becc098e44b855ca034fb1802bc0\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\a3bfb016d41c70cb77a4f9afd84ecb49\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:3:5-39
-		INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
-		INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
-		INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\5e956fe67a9d2e72da17849c1c482a94\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\5e956fe67a9d2e72da17849c1c482a94\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\4865d0bb420eeb38e1193023e7c09d7a\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -84,43 +84,43 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\da
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\5b454e4f1a30a31f78d2352c725b41cb\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:11:9-40
 receiver#com.example.finalproject.AlarmReceiver
-ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:12:9-16:20
+ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:12:9-16:20
 	android:enabled
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:14:13-35
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:14:13-35
 	android:exported
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:15:13-36
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:15:13-36
 	android:name
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:13:13-42
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:13:13-42
 activity#com.example.finalproject.MainActivity
-ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:17:19-47
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:17:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:21:27-74
 uses-sdk
-INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:databinding-adapters:3.5.1] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\2fd96cf120d726db29579aa20a228736\databinding-adapters-3.5.1\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-adapters:3.5.1] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\2fd96cf120d726db29579aa20a228736\databinding-adapters-3.5.1\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:3.5.1] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\dcf4536f48ce679df9c239c0dd8bb3fd\databinding-runtime-3.5.1\AndroidManifest.xml:22:5-44
@@ -221,13 +221,13 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\danny\.g
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\0061becc098e44b855ca034fb1802bc0\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\a3bfb016d41c70cb77a4f9afd84ecb49\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\a3bfb016d41c70cb77a4f9afd84ecb49\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\danny\AndroidStudioProjects\vincentsalarm\CS-4540\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml

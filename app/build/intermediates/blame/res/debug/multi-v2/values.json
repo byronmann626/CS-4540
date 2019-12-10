@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\danny\\AndroidStudioProjects\\vincentsalarm\\CS-4540\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\danny\\AndroidStudioProjects\\updatedProject\\CS-4540\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\danny\\AndroidStudioProjects\\vincentsalarm\\CS-4540\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\danny\\AndroidStudioProjects\\updatedProject\\CS-4540\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "1,4",
                         "startColumns": "4,4",
@@ -56,23 +56,6 @@
                         "endLines": "24,3007,3899,3988",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "1257,197116,253061,258272"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\danny\\AndroidStudioProjects\\vincentsalarm\\CS-4540\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "157,57,105",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "198,99,151"
-                    },
-                    "to": {
-                        "startLines": "192,193,194",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "9973,10019,10066",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "10014,10061,10112"
                     }
                 },
                 {
@@ -224,24 +207,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\danny\\.gradle\\caches\\transforms-2\\files-2.1\\481a559874259d7afc9fb94b67c74794\\media-1.0.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,5,6,7,8,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,288,341,394,447,560,626,748,809,875",
-                        "endColumns": "88,52,52,52,52,65,121,60,65,66",
-                        "endOffsets": "139,336,389,442,495,621,743,804,870,937"
-                    },
-                    "to": {
-                        "startLines": "238,469,470,471,472,2351,2353,2354,2359,2361",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "12917,28184,28237,28290,28343,154708,154884,155006,155268,155463",
-                        "endColumns": "88,52,52,52,52,65,121,60,65,66",
-                        "endOffsets": "13001,28232,28285,28338,28391,154769,155001,155062,155329,155525"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\danny\\AndroidStudioProjects\\vincentsalarm\\CS-4540\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\danny\\AndroidStudioProjects\\updatedProject\\CS-4540\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -257,6 +223,23 @@
                         "endLines": "638",
                         "endColumns": "12",
                         "endOffsets": "39322"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\danny\\.gradle\\caches\\transforms-2\\files-2.1\\481a559874259d7afc9fb94b67c74794\\media-1.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,5,6,7,8,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,288,341,394,447,560,626,748,809,875",
+                        "endColumns": "88,52,52,52,52,65,121,60,65,66",
+                        "endOffsets": "139,336,389,442,495,621,743,804,870,937"
+                    },
+                    "to": {
+                        "startLines": "238,469,470,471,472,2351,2353,2354,2359,2361",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "12917,28184,28237,28290,28343,154708,154884,155006,155268,155463",
+                        "endColumns": "88,52,52,52,52,65,121,60,65,66",
+                        "endOffsets": "13001,28232,28285,28338,28391,154769,155001,155062,155329,155525"
                     }
                 },
                 {
@@ -276,6 +259,23 @@
                         "endLines": "3168,3175,3186,4546,4551",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "206500,206885,207482,290798,291068"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\danny\\AndroidStudioProjects\\updatedProject\\CS-4540\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
+                    },
+                    "to": {
+                        "startLines": "192,193,194",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "9973,10019,10066",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "10014,10061,10112"
                     }
                 },
                 {
