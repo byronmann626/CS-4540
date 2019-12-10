@@ -1,4 +1,7 @@
-#Sun Dec 08 04:11:13 PST 2019
-base.0=C\:\\Code\\AndroidAlarmFinal\\CS-4540\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Mon Dec 09 18:05:24 PST 2019
+base.0=C\:\\Users\\danny\\AndroidStudioProjects\\vincentsalarm\\CS-4540\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=C\:\\Users\\danny\\AndroidStudioProjects\\vincentsalarm\\CS-4540\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

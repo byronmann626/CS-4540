@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="24"
         android:targetSdkVersion="29" />
 
     <application
@@ -18,6 +18,12 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <receiver
+            android:name="com.example.finalproject.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" >
+        </receiver>
+
         <activity android:name="com.example.finalproject.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
