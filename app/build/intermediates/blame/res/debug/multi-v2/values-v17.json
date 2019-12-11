@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\danny\\AndroidStudioProjects\\vincentsalarm\\CS-4540\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "C:\\Users\\larab\\Documents\\CS-4540-byron\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\danny\\.gradle\\caches\\transforms-2\\files-2.1\\987cb298e671b0d082f9d060f9617e62\\appcompat-1.1.0-rc01\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\larab\\.gradle\\caches\\transforms-2\\files-2.1\\3fa53dfa8932e75668a08805e278a501\\appcompat-1.1.0-rc01\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

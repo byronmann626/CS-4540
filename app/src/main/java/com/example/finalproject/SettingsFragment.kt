@@ -20,10 +20,10 @@ import kotlinx.android.synthetic.main.fragment_settings.view.*
 import kotlinx.android.synthetic.main.fragment_settings.*
 import java.util.*
 
-
 /**
  * A simple [Fragment] subclass.
  */
+
 class SettingsFragment : Fragment() {
 
     override fun onCreateView(
@@ -43,8 +43,12 @@ class SettingsFragment : Fragment() {
 //                datePicker.getYear(), datePicker.getMonth(), datePicker.getDayOfMonth(),
 //                timePicker.getCurrentHour(), timePicker.getCurrentMinute(), 0
 //            )
-            val startTime = calendar.getTimeInMillis()
 
+            binding.okButton.setOnClickListener{
+
+            }
+
+            val startTime = calendar.getTimeInMillis()
 
             Toast.makeText(activity, binding.timePicker1.hour.toString()+" "+binding.timePicker1.minute.toString() ,Toast.LENGTH_LONG).show()
             createAlarmManager()
@@ -78,6 +82,4 @@ class SettingsFragment : Fragment() {
         alarmManager.setExactAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, alarmTimeAtUTC, pendingIntent)
 
     }
-
-
 }

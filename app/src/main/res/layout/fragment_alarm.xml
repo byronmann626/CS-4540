@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
 
             android:text="Add a Alarm"
-            android:textColor="@color/colorAccent"
+            android:textColor="#F3F3F3"
 
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -41,6 +41,19 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.957" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#272525"
+            android:textAlignment="center"
+            android:textDirection="firstStrong"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/recyclerview_item" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

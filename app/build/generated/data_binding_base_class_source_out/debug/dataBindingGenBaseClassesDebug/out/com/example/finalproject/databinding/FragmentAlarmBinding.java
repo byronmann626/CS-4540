@@ -10,6 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import androidx.recyclerview.widget.RecyclerView;
 import com.example.finalproject.R;
 import java.lang.Deprecated;
 import java.lang.Object;
@@ -19,12 +20,16 @@ public abstract class FragmentAlarmBinding extends ViewDataBinding {
   public final Button addAlarmButton;
 
   @NonNull
+  public final RecyclerView recyclerview;
+
+  @NonNull
   public final ConstraintLayout titleConstraint;
 
   protected FragmentAlarmBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button addAlarmButton, ConstraintLayout titleConstraint) {
+      Button addAlarmButton, RecyclerView recyclerview, ConstraintLayout titleConstraint) {
     super(_bindingComponent, _root, _localFieldCount);
     this.addAlarmButton = addAlarmButton;
+    this.recyclerview = recyclerview;
     this.titleConstraint = titleConstraint;
   }
 
