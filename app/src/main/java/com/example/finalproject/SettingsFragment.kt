@@ -13,6 +13,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.core.content.ContextCompat.getSystemService
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.ViewModelProvider
 import com.example.finalproject.databinding.FragmentSettingsBinding
 import androidx.navigation.findNavController
 import com.google.android.material.chip.Chip
@@ -28,7 +29,8 @@ import kotlin.collections.ArrayList
  */
 
 class SettingsFragment : Fragment() {
-
+    lateinit var alarmViewModel: AlarmViewModel
+    lateinit var daySelected:String
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -56,22 +58,28 @@ class SettingsFragment : Fragment() {
             selectedDate.add(f.isChecked)
             selectedDate.add(sat.isChecked)
             selectedDate.add(sun.isChecked)
+            if(m.isChecked) daySelected="Mon"
+            if(t.isChecked) daySelected="Tue"
+            if(w.isChecked) daySelected="Wed"
+            if(th.isChecked) daySelected="Thu"
+            if(f.isChecked) daySelected="Fri"
+            if(sat.isChecked) daySelected="Sat"
+            if(sun.isChecked) daySelected="Sun"
+            
            var alarmTime= createDate(selectedDate,binding.timePicker1.hour,binding.timePicker1.minute)
 
 
 
             Log.d("chips",""+selectedDate.toString())
+            Log.d("chips",""+daySelected)
 //            calendar.set(
 //                datePicker.getYear(), datePicker.getMonth(), datePicker.getDayOfMonth(),
 //                timePicker.getCurrentHour(), timePicker.getCurrentMinute(), 0
 //            )
 
-
-            binding.okButton.setOnClickListener{
-
-            }
-
-            val startTime = calendar.getTimeInMillis()
+            alarmViewModel = ViewModelProvider(this).get(AlarmViewModel::class.java)
+            alarmViewModel.insert(Alarm((binding.timePicker1.hour+binding.timePicker1.minute),binding.timePicker1.hour,binding.timePicker1.minute,daySelected))
+            
 
             Toast.makeText(activity, binding.timePicker1.hour.toString()+" "+binding.timePicker1.minute.toString() ,Toast.LENGTH_LONG).show()
             createAlarmManager(alarmTime)
