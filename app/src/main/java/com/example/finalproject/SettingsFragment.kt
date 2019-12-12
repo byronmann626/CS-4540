@@ -23,10 +23,10 @@ import kotlinx.android.synthetic.main.fragment_settings.*
 import java.util.*
 import kotlin.collections.ArrayList
 
-
 /**
  * A simple [Fragment] subclass.
  */
+
 class SettingsFragment : Fragment() {
 
     override fun onCreateView(
@@ -67,6 +67,11 @@ class SettingsFragment : Fragment() {
 //            )
 
 
+            binding.okButton.setOnClickListener{
+
+            }
+
+            val startTime = calendar.getTimeInMillis()
 
             Toast.makeText(activity, binding.timePicker1.hour.toString()+" "+binding.timePicker1.minute.toString() ,Toast.LENGTH_LONG).show()
             createAlarmManager(alarmTime)
@@ -130,6 +135,4 @@ class SettingsFragment : Fragment() {
         Log.d("debug",""+alarmDate.time)
         return alarmDate.time
     }
-
-
 }

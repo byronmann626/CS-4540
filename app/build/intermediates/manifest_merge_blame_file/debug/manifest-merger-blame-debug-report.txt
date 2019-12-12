@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\5b454e4f1a30a31f78d2352c725b41cb\core-1.1.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.1.0] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\2e2076e6216b29ee97192fe17edf1ebc\core-1.1.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:7:9-43
@@ -52,6 +52,24 @@
 31-->C:\Users\danny\AndroidStudioProjects\updatedProject\CS-4540\app\src\main\AndroidManifest.xml:21:27-74
 32            </intent-filter>
 33        </activity>
-34    </application>
-35
-36</manifest>
+34
+35        <service
+35-->[androidx.room:room-runtime:2.2.2] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\f515f68a84f3586cc729436321629802\room-runtime-2.2.2\AndroidManifest.xml:25:9-27:40
+36            android:name="androidx.room.MultiInstanceInvalidationService"
+36-->[androidx.room:room-runtime:2.2.2] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\f515f68a84f3586cc729436321629802\room-runtime-2.2.2\AndroidManifest.xml:26:13-74
+37            android:exported="false" />
+37-->[androidx.room:room-runtime:2.2.2] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\f515f68a84f3586cc729436321629802\room-runtime-2.2.2\AndroidManifest.xml:27:13-37
+38
+39        <provider
+39-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\7182b7788dc3ee66a7a3502a07e7c6e7\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:25:9-29:43
+40            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\7182b7788dc3ee66a7a3502a07e7c6e7\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:26:13-79
+41            android:authorities="com.example.finalproject.lifecycle-process"
+41-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\7182b7788dc3ee66a7a3502a07e7c6e7\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:27:13-69
+42            android:exported="false"
+42-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\7182b7788dc3ee66a7a3502a07e7c6e7\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:28:13-37
+43            android:multiprocess="true" />
+43-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\danny\.gradle\caches\transforms-2\files-2.1\7182b7788dc3ee66a7a3502a07e7c6e7\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:29:13-40
+44    </application>
+45
+46</manifest>

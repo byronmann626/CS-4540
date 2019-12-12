@@ -48,17 +48,10 @@ class AlarmReceiver : BroadcastReceiver() {
                 .setContentIntent(contentPendingIntent)
                 .setOngoing(true)
 
-
-
-
-
             val service = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
             service.notify(0, notification.build())
 
-
-
         }
-
 
     }
     @RequiresApi(Build.VERSION_CODES.O)
@@ -71,5 +64,4 @@ class AlarmReceiver : BroadcastReceiver() {
         service.createNotificationChannel(chan)
         return channelId
     }
-
 }
