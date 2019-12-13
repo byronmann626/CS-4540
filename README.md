@@ -3,3 +3,8 @@
 
 An alarm clock that snoozes every five minutes.
 
+# Screenshots
+![Imgur](https://imgur.com/a/f6WYI3P)
+
+
+# Video Demo
