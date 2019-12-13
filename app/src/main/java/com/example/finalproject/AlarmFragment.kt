@@ -12,12 +12,17 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.finalproject.databinding.FragmentAlarmBinding
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.chip.Chip
+import com.google.android.material.chip.ChipGroup
+import kotlinx.android.synthetic.main.fragment_settings.view.*
+import kotlinx.android.synthetic.main.recyclerview_item.view.*
 
 class AlarmFragment : Fragment() {
     lateinit var alarmViewModel: AlarmViewModel
@@ -39,21 +44,21 @@ class AlarmFragment : Fragment() {
         alarmViewModel = ViewModelProvider(this).get(AlarmViewModel::class.java)
         alarmViewModel.allAlarms.observe(act as LifecycleOwner, Observer { alarms ->
             // Update the cached copy of the words in the adapter.
-            alarms?.let { adapter.setAlarms(it as ArrayList<Alarm>) }
+            alarms?.let { adapter.setAlarms(it as ArrayList<Alarm>)
+            }
         })
 
-        setRecyclerViewItemTouchListener(binding.recyclerview, adapter.alarms)
+        setRecyclerViewItemTouchListener(binding.recyclerview)
 
         binding.addAlarmButton.setOnClickListener { view: View ->
             view.findNavController().navigate(R.id.action_alarmFragment_to_settingsFragment)
         }
 
-
         return binding.root
     }
 
 
-    private fun setRecyclerViewItemTouchListener(recyclerView: RecyclerView, alarmList: ArrayList<Alarm>) {
+    private fun setRecyclerViewItemTouchListener(recyclerView: RecyclerView) {
 
         val itemTouchCallback = object :
             ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT or ItemTouchHelper.RIGHT) {
@@ -77,5 +82,4 @@ class AlarmFragment : Fragment() {
         val itemTouchHelper = ItemTouchHelper(itemTouchCallback)
         itemTouchHelper.attachToRecyclerView(recyclerView)
     }
-
 }

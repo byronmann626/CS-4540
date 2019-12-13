@@ -5,7 +5,7 @@ import androidx.room.*
 
 @Dao
 interface AlarmDao {
-    @Query("SELECT * from alarm_table ORDER BY hour ASC")
+    @Query("SELECT * from alarm_table ORDER BY hour,min ASC")
     fun getAlphabetizedWords(): LiveData<List<Alarm>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)

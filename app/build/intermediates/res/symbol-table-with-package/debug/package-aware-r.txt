@@ -1100,7 +1100,6 @@ id ALT
 id CTRL
 id FUNCTION
 id META
-id On
 id SHIFT
 id SYM
 id accessibility_action_clickable_span
@@ -1180,6 +1179,7 @@ id chains
 id checkbox
 id checked
 id chipGroup
+id chipGroup2
 id chronometer
 id clip_horizontal
 id clip_vertical

@@ -31,6 +31,7 @@ import kotlin.collections.ArrayList
 class SettingsFragment : Fragment() {
     lateinit var alarmViewModel: AlarmViewModel
     lateinit var daySelected:String
+    var count = 1
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -68,18 +69,25 @@ class SettingsFragment : Fragment() {
 
             var alarmTime= createDate(selectedDate,binding.timePicker1.hour,binding.timePicker1.minute)
 
+            var str:String = ""
+            for(b: Boolean in selectedDate){
+                if(b == false)
+                    str += "0"
+                else
+                    str += "1"
+
+            }
 
 
-            Log.d("chips",""+selectedDate.toString())
-            Log.d("chips",""+daySelected)
+            Log.d("str: ",""+str)
+            Log.d("chips",""+ daySelected)
 //            calendar.set(
 //                datePicker.getYear(), datePicker.getMonth(), datePicker.getDayOfMonth(),
 //                timePicker.getCurrentHour(), timePicker.getCurrentMinute(), 0
 //            )
 
             alarmViewModel = ViewModelProvider(this).get(AlarmViewModel::class.java)
-            alarmViewModel.insert(Alarm((binding.timePicker1.hour+binding.timePicker1.minute),binding.timePicker1.hour,binding.timePicker1.minute,daySelected))
-
+            alarmViewModel.insert(Alarm((binding.timePicker1.hour+binding.timePicker1.minute), binding.timePicker1.hour,binding.timePicker1.minute,str))
 
             Toast.makeText(activity, binding.timePicker1.hour.toString()+" "+binding.timePicker1.minute.toString() ,Toast.LENGTH_LONG).show()
             createAlarmManager(alarmTime)

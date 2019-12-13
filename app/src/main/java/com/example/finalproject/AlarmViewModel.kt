@@ -36,4 +36,5 @@ class AlarmViewModel(application: Application) : AndroidViewModel(application) {
     fun delete(alarm: Alarm) = viewModelScope.launch{
         repository.delete(alarm)
     }
+
 }
