@@ -2,7 +2,7 @@
 ## Alarm Clock
 Team:
 Daniel Preciado
-Byron Lara
+\n Byron Lara
 Vincent Trau
 
 This alarm is is for students that snooze their alarm 20 times in the morning. This alarm will help you make it to class or meeting on time. An alarm clock that snoozes every five minutes.
