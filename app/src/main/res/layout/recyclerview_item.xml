@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:focusable="auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/individual"
+        style="@style/alarm_title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#818181"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <Switch
+        android:id="@+id/On"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="-75dp"
+        android:layout_marginRight="30dp"
+        android:foregroundGravity="right"
+        android:showText="false" />
+</LinearLayout>
