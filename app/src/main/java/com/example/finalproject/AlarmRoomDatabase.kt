@@ -22,14 +22,6 @@ abstract class AlarmRoomDatabase:RoomDatabase() {
             INSTANCE?.let { database ->
                 scope.launch {
                     var alarmDao = database.alarmDao()
-                    alarmDao.deleteAll()
-                    var alarm = Alarm(1, 2, 3, "W")
-                    alarmDao.insert(alarm)
-                    alarm = Alarm(3, 4, 30, "M")
-                    alarmDao.insert(alarm)
-                    alarm = Alarm(2, 4, 20, "M")
-                    alarmDao.insert(alarm)
-
                 }
             }
         }
@@ -51,7 +43,7 @@ abstract class AlarmRoomDatabase:RoomDatabase() {
                     val instance = Room.databaseBuilder(
                         context.applicationContext,
                         AlarmRoomDatabase::class.java,
-                        "word_database"
+                        "alarm_database"
                     ).addCallback(AlarmDatabaseCallback(scope)).build()
                     INSTANCE = instance
                     return instance

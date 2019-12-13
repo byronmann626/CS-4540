@@ -1100,6 +1100,7 @@ id ALT
 id CTRL
 id FUNCTION
 id META
+id On
 id SHIFT
 id SYM
 id accessibility_action_clickable_span
@@ -1227,6 +1228,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id individual
 id info
 id invisible
 id italic
@@ -1337,7 +1339,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id textWatcher
 id text_input_password_toggle
 id textinput_counter

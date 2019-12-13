@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\larab\\Documents\\CS-4540-byron\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\larab\\Documents\\CS-4540\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\larab\\.gradle\\caches\\transforms-2\\files-2.1\\9ce3ee21c2e2c0f2f52b13e38e91138c\\media-1.0.0\\res\\values\\values.xml",
@@ -21,25 +21,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\larab\\Documents\\CS-4540-byron\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,10",
-                        "startColumns": "4,4",
-                        "startOffsets": "54,369",
-                        "endLines": "8,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "363,743"
-                    },
-                    "to": {
-                        "startLines": "635,3010",
-                        "startColumns": "4,4",
-                        "startOffsets": "39134,197242",
-                        "endLines": "640,3016",
-                        "endColumns": "12,12",
-                        "endOffsets": "39443,197616"
-                    }
-                },
-                {
                     "source": "C:\\Users\\larab\\.gradle\\caches\\transforms-2\\files-2.1\\6bfff6f8b01c41d27511c993274cadf0\\recyclerview-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "30,31,32,33,34,35,36,2",
@@ -56,6 +37,23 @@
                         "endLines": "393,394,395,403,404,405,524,4484",
                         "endColumns": "58,47,55,74,75,71,65,24",
                         "endOffsets": "23413,23461,23517,24203,24279,24351,31410,286689"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\larab\\Documents\\CS-4540\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "16,125",
+                        "endColumns": "49,69",
+                        "endOffsets": "61,190"
+                    },
+                    "to": {
+                        "startLines": "607,614",
+                        "startColumns": "4,4",
+                        "startOffsets": "36186,37022",
+                        "endColumns": "49,69",
+                        "endOffsets": "36231,37087"
                     }
                 },
                 {
@@ -169,6 +167,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\larab\\Documents\\CS-4540\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "54,369",
+                        "endLines": "8,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "363,743"
+                    },
+                    "to": {
+                        "startLines": "635,3010",
+                        "startColumns": "4,4",
+                        "startOffsets": "39134,197242",
+                        "endLines": "640,3016",
+                        "endColumns": "12,12",
+                        "endOffsets": "39443,197616"
+                    }
+                },
+                {
                     "source": "C:\\Users\\larab\\.gradle\\caches\\transforms-2\\files-2.1\\20479b8fdb5d2942f967bc02cbd94551\\transition-1.0.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -202,23 +219,6 @@
                         "endLines": "521,563,4110,4114",
                         "endColumns": "56,63,24,24",
                         "endOffsets": "31270,33327,266390,266539"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\larab\\Documents\\CS-4540-byron\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
-                    },
-                    "to": {
-                        "startLines": "192,193,194",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "9973,10019,10066",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "10014,10061,10112"
                     }
                 },
                 {
@@ -258,6 +258,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\larab\\Documents\\CS-4540\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
+                    },
+                    "to": {
+                        "startLines": "192,193,194",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "9973,10019,10066",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "10014,10061,10112"
+                    }
+                },
+                {
                     "source": "C:\\Users\\larab\\.gradle\\caches\\transforms-2\\files-2.1\\74af1d7643ef6fcf6efe692a8586765f\\navigation-runtime-2.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,10,13",
@@ -274,23 +291,6 @@
                         "endLines": "529,3140,4429,4435",
                         "endColumns": "52,24,24,24",
                         "endOffsets": "31653,204836,283419,283661"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\larab\\Documents\\CS-4540-byron\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,4",
-                        "startColumns": "4,4",
-                        "startOffsets": "16,125",
-                        "endColumns": "49,69",
-                        "endOffsets": "61,190"
-                    },
-                    "to": {
-                        "startLines": "607,614",
-                        "startColumns": "4,4",
-                        "startOffsets": "36186,37022",
-                        "endColumns": "49,69",
-                        "endOffsets": "36231,37087"
                     }
                 },
                 {

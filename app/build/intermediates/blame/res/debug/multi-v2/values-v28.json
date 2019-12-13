@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\larab\\Documents\\CS-4540-byron\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "C:\\Users\\larab\\Documents\\CS-4540\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
                     "source": "C:\\Users\\larab\\.gradle\\caches\\transforms-2\\files-2.1\\3fa53dfa8932e75668a08805e278a501\\appcompat-1.1.0-rc01\\res\\values-v28\\values-v28.xml",

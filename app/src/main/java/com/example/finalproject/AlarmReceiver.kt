@@ -34,7 +34,7 @@ class AlarmReceiver : BroadcastReceiver() {
                     createNotificationChannel("24", "Alarm Channel")
                 } else {
                     // If earlier version channel ID is not used
-                    // https://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#NotificationCompat.Builder(android.content.Context)
+                    // https://developer.android.c        om/reference/android/support/v4/app/NotificationCompat.Builder.html#NotificationCompat.Builder(android.content.Context)
                     ""
                 }
             val notificationIntent = Intent(context, MainActivity::class.java)

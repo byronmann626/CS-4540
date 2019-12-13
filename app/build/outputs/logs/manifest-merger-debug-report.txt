@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.room:room-ktx:2.2.2] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\0011c85cb62a4bba16bbe173f0e5a7e2\room-ktx-2.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\9984efe92a3980ef7e19f8dcdb0b7b46\navigation-fragment-ktx-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.1.0] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\0dc244978e257a23aa06c583095aef90\fragment-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -62,25 +62,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\larab\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\a9cce7566000a40f1d3d79d456cd1d49\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\7e1d9b5c301c695a5e7e28c06a3f07e4\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\b762e7c274231f2e81915c00b7b6d5cb\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:3:5-39
-		INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:2:1-26:12
-		INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:2:1-26:12
-		INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\0564db8f3c411d1b2d54ca0894d9e125\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\0564db8f3c411d1b2d54ca0894d9e125\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.room:room-runtime:2.2.2] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\f515f68a84f3586cc729436321629802\room-runtime-2.2.2\AndroidManifest.xml:24:5-28:19
@@ -98,43 +98,43 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\la
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\2e2076e6216b29ee97192fe17edf1ebc\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:11:9-40
 receiver#com.example.finalproject.AlarmReceiver
-ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:12:9-16:20
+ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:12:9-16:20
 	android:enabled
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:14:13-35
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:14:13-35
 	android:exported
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:15:13-36
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:15:13-36
 	android:name
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:13:13-42
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:13:13-42
 activity#com.example.finalproject.MainActivity
-ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:17:19-47
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:17:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml:21:27-74
 uses-sdk
-INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
 MERGED from [androidx.room:room-ktx:2.2.2] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\0011c85cb62a4bba16bbe173f0e5a7e2\room-ktx-2.2.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-ktx:2.2.2] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\0011c85cb62a4bba16bbe173f0e5a7e2\room-ktx-2.2.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\9984efe92a3980ef7e19f8dcdb0b7b46\navigation-fragment-ktx-2.1.0\AndroidManifest.xml:20:5-22:41
@@ -251,16 +251,16 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\7e1d9b5c301c695a5e7e28c06a3f07e4\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\b762e7c274231f2e81915c00b7b6d5cb\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\b762e7c274231f2e81915c00b7b6d5cb\print-1.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\larab\Documents\CS-4540-byron\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\larab\Documents\CS-4540\app\src\main\AndroidManifest.xml
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.2.2] C:\Users\larab\.gradle\caches\transforms-2\files-2.1\f515f68a84f3586cc729436321629802\room-runtime-2.2.2\AndroidManifest.xml:25:9-27:40
 	android:exported

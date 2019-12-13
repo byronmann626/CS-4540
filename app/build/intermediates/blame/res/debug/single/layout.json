@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\larab\\Documents\\CS-4540-byron\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_alarm.xml",
-        "source": "C:\\Users\\larab\\Documents\\CS-4540-byron\\app\\src\\main\\res\\layout\\fragment_alarm.xml"
+        "merged": "C:\\Users\\larab\\Documents\\CS-4540\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_alarm.xml",
+        "source": "C:\\Users\\larab\\Documents\\CS-4540\\app\\src\\main\\res\\layout\\fragment_alarm.xml"
     },
     {
-        "merged": "C:\\Users\\larab\\Documents\\CS-4540-byron\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_settings.xml",
-        "source": "C:\\Users\\larab\\Documents\\CS-4540-byron\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+        "merged": "C:\\Users\\larab\\Documents\\CS-4540\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\larab\\Documents\\CS-4540\\app\\src\\main\\res\\layout\\fragment_settings.xml"
     },
     {
-        "merged": "C:\\Users\\larab\\Documents\\CS-4540-byron\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\larab\\Documents\\CS-4540-byron\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\larab\\Documents\\CS-4540\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\larab\\Documents\\CS-4540\\app\\src\\main\\res\\layout\\activity_main.xml"
     }
 ]

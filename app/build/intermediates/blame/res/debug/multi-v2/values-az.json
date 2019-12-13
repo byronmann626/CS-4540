@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\larab\\Documents\\CS-4540-byron\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
+            "outputFile": "C:\\Users\\larab\\Documents\\CS-4540\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
             "map": [
                 {
                     "source": "C:\\Users\\larab\\.gradle\\caches\\transforms-2\\files-2.1\\05ab22bfe272cf2409b4d7edee5e6587\\jetified-navigation-ui-2.1.0\\res\\values-az\\values-az.xml",

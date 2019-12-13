@@ -8,9 +8,11 @@ import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.RecyclerView;
+import com.example.finalproject.AlarmFragment;
 import com.example.finalproject.R;
 import java.lang.Deprecated;
 import java.lang.Object;
@@ -25,12 +27,22 @@ public abstract class FragmentAlarmBinding extends ViewDataBinding {
   @NonNull
   public final ConstraintLayout titleConstraint;
 
+  @Bindable
+  protected AlarmFragment mSettings;
+
   protected FragmentAlarmBinding(Object _bindingComponent, View _root, int _localFieldCount,
       Button addAlarmButton, RecyclerView recyclerview, ConstraintLayout titleConstraint) {
     super(_bindingComponent, _root, _localFieldCount);
     this.addAlarmButton = addAlarmButton;
     this.recyclerview = recyclerview;
     this.titleConstraint = titleConstraint;
+  }
+
+  public abstract void setSettings(@Nullable AlarmFragment Settings);
+
+  @Nullable
+  public AlarmFragment getSettings() {
+    return mSettings;
   }
 
   @NonNull

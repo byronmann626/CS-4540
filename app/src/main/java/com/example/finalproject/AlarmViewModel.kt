@@ -12,14 +12,14 @@ class AlarmViewModel(application: Application) : AndroidViewModel(application) {
     // The ViewModel maintains a reference to the repository to get data.
     private val repository: AlarmRepository
     // LiveData gives us updated words when they change.
-    val allWords: LiveData<List<Alarm>>
+    val allAlarms: LiveData<List<Alarm>>
 
     init {
         // Gets reference to WordDao from WordRoomDatabase to construct
         // the correct WordRepository.
         val alarmDao = AlarmRoomDatabase.getDatabase(application,viewModelScope).alarmDao()
         repository = AlarmRepository(alarmDao)
-        allWords = repository.allWords
+        allAlarms = repository.allWords
     }
 
     /**
@@ -31,5 +31,9 @@ class AlarmViewModel(application: Application) : AndroidViewModel(application) {
      */
     fun insert(alarm: Alarm) = viewModelScope.launch {
         repository.insert(alarm)
+    }
+
+    fun delete(alarm: Alarm) = viewModelScope.launch{
+        repository.delete(alarm)
     }
 }

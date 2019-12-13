@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\larab\\Documents\\CS-4540-byron\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
+            "outputFile": "C:\\Users\\larab\\Documents\\CS-4540\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
             "map": [
                 {
                     "source": "C:\\Users\\larab\\.gradle\\caches\\transforms-2\\files-2.1\\2e2076e6216b29ee97192fe17edf1ebc\\core-1.1.0\\res\\values-ko\\values-ko.xml",

@@ -1,10 +1,7 @@
 package com.example.finalproject
 
 import androidx.lifecycle.LiveData
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
 
 @Dao
 interface AlarmDao {
@@ -16,4 +13,7 @@ interface AlarmDao {
 
     @Query("DELETE FROM alarm_table")
     suspend fun deleteAll()
+
+    @Delete
+    suspend fun delete(alarm:Alarm)
 }
