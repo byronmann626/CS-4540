@@ -19,6 +19,14 @@ import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat.getSystemService
+import android.media.RingtoneManager
+import android.media.AudioAttributes
+import android.net.Uri
+
+
+import android.content.ContentResolver
+import android.media.MediaPlayer
+
 
 class AlarmReceiver : BroadcastReceiver() {
     private lateinit var context:Context
@@ -27,6 +35,9 @@ class AlarmReceiver : BroadcastReceiver() {
         // Is triggered when alarm goes off, i.e. receiving a system broadcast
         if (intent.action == "FOO_ACTION") {
             val fooString = intent.getStringExtra("KEY_FOO_STRING")
+           val mediaPlayer= MediaPlayer.create(context,R.raw.wakemeup)
+
+            mediaPlayer.start()
             Toast.makeText(context, fooString, Toast.LENGTH_LONG).show()
             Log.d("print","BROADCAST RECEIVER_+_+_+_+_+_")
             val channelId =
@@ -37,14 +48,16 @@ class AlarmReceiver : BroadcastReceiver() {
                     // https://developer.android.com/reference/android/support/v4/app/NotificationCompat.Builder.html#NotificationCompat.Builder(android.content.Context)
                     ""
                 }
+
             val notificationIntent = Intent(context, MainActivity::class.java)
             notificationIntent.action = "My action"  // A string containing the action name
             val contentPendingIntent = PendingIntent.getActivity(context, 0, notificationIntent, 0)
             val notification = NotificationCompat.Builder(context,channelId)
-                .setContentTitle("TITLE")
+                .setContentTitle("Alarm Clock")
                 .setTicker("TICKER")
-                .setContentText("THis is my content text")
+                .setContentText("Alarm clock for Time")
                 .setSmallIcon(R.drawable.ic_launcher_foreground)
+                .setAutoCancel(true)
                 .setContentIntent(contentPendingIntent)
                 .setOngoing(true)
 
@@ -60,6 +73,12 @@ class AlarmReceiver : BroadcastReceiver() {
             channelName, NotificationManager.IMPORTANCE_HIGH)
         chan.lightColor = Color.BLUE
         chan.lockscreenVisibility = Notification.VISIBILITY_PRIVATE
+        val audioAttributes = AudioAttributes.Builder()
+            .setUsage(AudioAttributes.USAGE_NOTIFICATION)
+            .build()
+        val sound = Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE + "://" + context.packageName + "/" + R.raw.wakemeup)
+
+        chan.setSound(sound,audioAttributes)
         val service = context.getSystemService(NOTIFICATION_SERVICE) as NotificationManager
         service.createNotificationChannel(chan)
         return channelId

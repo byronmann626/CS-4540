@@ -3,6 +3,7 @@ package com.example.finalproject
 
 import android.app.Activity
 import android.content.Context
+import android.media.MediaPlayer
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -27,7 +28,8 @@ class AlarmFragment : Fragment() {
                               savedInstanceState: Bundle?): View? {
         val binding = DataBindingUtil.inflate<FragmentAlarmBinding>(inflater,
             R.layout.fragment_alarm,container,false)
-
+        val mediaPlayer= MediaPlayer.create(context,R.raw.wakemeup)
+        mediaPlayer.stop()
         val act = this.activity as Activity
         val adapter = AlarmListAdapter(act)
         binding.recyclerview.adapter = adapter
@@ -37,7 +39,9 @@ class AlarmFragment : Fragment() {
         alarmViewModel.allWords.observe(act as LifecycleOwner, Observer { words ->
             // Update the cached copy of the words in the adapter.
             words?.let { adapter.setAlarms(it) }
+
         })
+
 
         binding.addAlarmButton.setOnClickListener{
                 view : View ->

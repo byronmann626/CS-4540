@@ -119,7 +119,7 @@ class SettingsFragment : Fragment() {
         var day=days.indexOf(true)
         val calendar=Calendar.getInstance().time
 
-        Log.d("debug",calendar.toString())
+        Log.d("debug",calendar.day.toString())
         var currDate:Int=0
         if(calendar.toString().equals("Mon"))
             currDate=0
@@ -136,8 +136,12 @@ class SettingsFragment : Fragment() {
         if(calendar.toString().equals("Sun"))
             currDate=6
 
+        currDate=calendar.day-1
+        if (currDate==7)
+            currDate=0
+
         var offset=(day-currDate)
-        Log.d("debug","offset "+offset+" ")
+        Log.d("debug","offset "+offset+"  day "+day+" currDate "+currDate)
 
         var alarmDate=Date(calendar.year,calendar.month,calendar.date+offset,hour,minute)
         Log.d("debug",""+alarmDate.time)

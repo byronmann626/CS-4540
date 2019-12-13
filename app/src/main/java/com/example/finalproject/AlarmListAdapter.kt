@@ -1,10 +1,12 @@
 package com.example.finalproject
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 
 class AlarmListAdapter internal constructor(
@@ -13,7 +15,7 @@ class AlarmListAdapter internal constructor(
 
     private val inflater: LayoutInflater = LayoutInflater.from(context)
     private var alarms = emptyList<Alarm>() // Cached copy of words
-
+    lateinit var holder:AlarmViewHolder
     inner class AlarmViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val alarmItemView: TextView = itemView.findViewById(R.id.textView)
     }
@@ -25,10 +27,15 @@ class AlarmListAdapter internal constructor(
 
     override fun onBindViewHolder(holder: AlarmViewHolder, position: Int) {
         val current = alarms[position]
+        this.holder=holder
         if(current.min < 10)
             holder.alarmItemView.text = "${current.hour}:0${current.min}"
         else
             holder.alarmItemView.text = "${current.hour}:${current.min}"
+        holder.alarmItemView.setOnLongClickListener{
+            Log.d("item ","Text "+holder.alarmItemView.text)
+            return@setOnLongClickListener true
+        }
     }
 
     internal fun setAlarms(alarms: List<Alarm>) {
@@ -37,4 +44,9 @@ class AlarmListAdapter internal constructor(
     }
 
     override fun getItemCount() = alarms.size
+
+    fun getIndividual(): AlarmViewHolder {
+        return this.holder
+    }
+
 }

@@ -22,7 +22,7 @@ abstract class AlarmRoomDatabase:RoomDatabase() {
             INSTANCE?.let { database ->
                 scope.launch {
                     var alarmDao = database.alarmDao()
-                    alarmDao.deleteAll()
+                    //alarmDao.deleteAll()
                     var alarm = Alarm(1, 2, 3, "W")
                     alarmDao.insert(alarm)
                     alarm = Alarm(3, 4, 30, "M")
