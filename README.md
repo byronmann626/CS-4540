@@ -10,3 +10,6 @@ An alarm clock that snoozes every five minutes.
 
 # Video Demo
 https://youtu.be/UlTdSKCrW2A
+
+Sources:
+https://itnext.io/android-alarmmanager-as-deep-as-possible-909bd5b64792
